@@ -125,3 +125,5 @@ if __name__ == '__main__':
                         speak_jarvis(hind_text)
                     except Exception as E:
                         speak_jarvis("problem")
+                else:
+                    webbrowser.open('https://www.google.com/search?q='+query)
